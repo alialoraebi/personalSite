@@ -9,7 +9,6 @@ const Projects = () => {
 
     const [currentScreenshotIndex, setCurrentScreenshotIndex] = useState(0);
 
-    // Function to display the next screenshot
     function nextScreenshot() {
         setCurrentScreenshotIndex((prevIndex) => (prevIndex + 1) % screenshots.length);
         
