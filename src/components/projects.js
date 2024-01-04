@@ -25,12 +25,13 @@ const Projects = () => {
     }
 
     return (
-        <div>
-            <img src={screenshots[currentScreenshotIndex]} alt="screenshot" />
-            <button onClick={previousScreenshot}>Previous screenshot</button>
-            <button onClick={nextScreenshot}>Next screenshot</button>
-            <a href="https://github.com/alialoraebi">View more here</a>
-        </div>
+        <section id="projects" className="projects-section">
+            <h2 className="projects-title">Projects</h2>
+            <img src={screenshots[currentScreenshotIndex]} alt="screenshot" className="projects-screenshot"/>
+            <button onClick={previousScreenshot} className="projects-prev-button">← Previous screenshot</button>
+            <button onClick={nextScreenshot} className="projects-next-button">Next screenshot →</button>
+            <a href="https://github.com/alialoraebi" className="projects-link">View more here</a>
+        </section>
     );
 };
 export default Projects;

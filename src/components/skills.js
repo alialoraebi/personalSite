@@ -16,15 +16,15 @@ const Skills = () => {
     ];
 
     return (
-        <div>
-            <h2>Skills</h2>
-            <p>I have been learning these skills for 3 years:</p>
-            <ul>
+        <section id="skills" className="skills-section">
+            <h2 className="skills-title">Skills</h2>
+            <p className="skills-description">I have been learning these skills for 3 years:</p>
+            <ul className="skills-list">
                 {skills.map((skill, index) => (
-                    <li key={index}>{skill}</li>
+                    <li key={index} className="skills-item">{skill}</li>
                 ))}
             </ul>
-        </div>
+        </section>
     );
 };
 
