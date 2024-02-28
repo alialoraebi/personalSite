@@ -5,6 +5,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        'custom': ['IBM Plex Mono', 'monospace']
+      },
       flexGrow: {
         '2': '2',
       },
