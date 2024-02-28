@@ -10,10 +10,17 @@ import { FaUser, FaTools, FaProjectDiagram, FaChevronDown } from 'react-icons/fa
 import { TransitionGroup, CSSTransition } from 'react-transition-group';
 
 function App() {
-  const [activeSection, setActiveSection] = useState(null);
+  const [activeSections, setActiveSections] = useState({
+    about: false,
+    skills: false,
+    projects: false,
+  });
 
   const toggleSection = (section) => {
-    setActiveSection(activeSection !== section ? section : null);
+    setActiveSections({
+      ...activeSections,
+      [section]: !activeSections[section],
+    });
   };
 
   const aboutRef = useRef(null);
@@ -32,10 +39,10 @@ function App() {
                 <FaUser className="mr-2" />
                 <span>About</span>
               </div>
-              <FaChevronDown className={`transition-transform duration-200 ${activeSection === 'about' ? 'transform rotate-180' : ''}`} />
+              <FaChevronDown className={`transition-transform duration-200 ${activeSections.about ? 'transform rotate-180' : ''}`} />
             </h2>
             <TransitionGroup>
-              {activeSection === 'about' && (
+              {activeSections.about && (
                 <CSSTransition timeout={200} classNames="my-node">
                   <div ref={aboutRef}>
                     <About />
@@ -50,10 +57,10 @@ function App() {
                 <FaTools className="mr-2" />
                 <span>Skills</span>
               </div>
-              <FaChevronDown className={`transition-transform duration-200 ${activeSection === 'skills' ? 'transform rotate-180' : ''}`} />
+              <FaChevronDown className={`transition-transform duration-200 ${activeSections.skills ? 'transform rotate-180' : ''}`} />
             </h2>
             <TransitionGroup>
-              {activeSection === 'skills' && (
+              {activeSections.skills && (
                 <CSSTransition timeout={200} classNames="my-node">
                   <div ref={skillsRef}>
                     <Skills />
@@ -68,10 +75,10 @@ function App() {
                 <FaProjectDiagram className="mr-2" />
                 <span>Projects</span>
               </div>
-              <FaChevronDown className={`transition-transform duration-200 ${activeSection === 'projects' ? 'transform rotate-180' : ''}`} />
+              <FaChevronDown className={`transition-transform duration-200 ${activeSections.projects ? 'transform rotate-180' : ''}`} />
             </h2>
             <TransitionGroup>
-              {activeSection === 'projects' && (
+              {activeSections.projects && (
                 <CSSTransition timeout={200} classNames="my-node">
                   <div ref={projectsRef}>
                     <Projects />
