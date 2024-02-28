@@ -7,7 +7,7 @@ const About = () => {
             <h2 className='intro'>
                 Hello, I'm Ali. I'm a full-stack web developer who's proficient in React.js and Node.js. 
                 I'm also exploring many different technologies to help enhance my skills. 
-                Feel free to reach out to me on <a href="https://www.linkedin.com/in/ali-al-oraibi/">LinkedIn</a>.
+                Feel free to reach out to me on <a href="https://www.linkedin.com/in/ali-al-oraibi/" className='text-custom-red hover:text-blue-500 transition-colors duration-200'>LinkedIn</a>.
             </h2>
         </section>
     
