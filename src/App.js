@@ -1,7 +1,7 @@
 import React, { useState, useRef } from 'react';
 import './tailwind.css';
 import ColorBar from './components/colorBar.js';
-import Header from './components/Heading.js';
+import Header from './components/heading.js';
 import About from './components/about.js';
 import Skills from './components/skills.js';
 import Projects from './components/projects.js';
