@@ -5,9 +5,7 @@ const Header = () => {
     return (
         <header className="flex justify-between items-center p-6 text-white">
             <div className="flex items-center space-x-4">
-                <a href="https://github.com/alialoraebi">
-                    <img src="https://github.com/alialoraebi.png" alt="GitHub Profile Picture" className="w-16 h-16 rounded-full" />
-                </a>
+                <img src="https://github.com/alialoraebi.png" alt="GitHub Profile Picture" className="w-16 h-16 rounded-full" />
             </div>
             <div className="text-center">
                 <h1 className="text-2xl font-bold">Ali Al Aoraebi</h1>
