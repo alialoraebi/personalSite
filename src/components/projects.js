@@ -5,7 +5,7 @@ const Projects = () => {
         {
             name: 'Employee Management App',
             description: 'An application to manage employee records and schedules.',
-            repoUrl: 'https://github.com/alialoraebi/emp-app',
+            repoUrl: 'https://github.com/alialoraebi/emp_management_app',
         },
         {
             name: 'Floor Installation Planner',
@@ -13,9 +13,9 @@ const Projects = () => {
             repoUrl: 'https://github.com/alialoraebi/floor-inst',
         },
         {
-            name: 'Post Submission Interface',
-            description: 'A UI for submitting and reviewing posts with CSS styling.',
-            repoUrl: 'https://github.com/alialoraebi/post-submission',
+            name: 'Weather App',
+            description: 'A simple weather app to check the current weather in any city.',
+            repoUrl: 'https://github.com/alialoraebi/React-WeatherApp',
         },
         // Add more projects here...
     ];
