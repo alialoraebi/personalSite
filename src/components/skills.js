@@ -6,13 +6,14 @@ const Skills = () => {
         'CSS',
         'JavaScript',
         'C#',
-        'React',
+        'React/React Native',
         'Node.js',
         'Docker',
         'MySQL',
         'MongoDB',
         'Git',
-        'GitHub'
+        'GitHub',
+        'Android/IOS Development'
     ];
 
     return (
