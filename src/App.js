@@ -25,7 +25,7 @@ function App() {
       <div className="w-full mx-auto max-w-4xl p-4 flex flex-col h-full overflow-auto">
         <Header />
         <ColorBar />
-        <div className="flex-1 overflow-auto">
+        <div className="flex-1 overflow-auto scrollbar-thin scrollbar-thumb-gray-900 scrollbar-track-gray-100">
           <div className="section text-left p-4 border-b border-white cursor-pointer" onClick={() => toggleSection('about')}>
             <h2 className="text-xl font-bold inline-flex items-center justify-between w-full">
               <div className="flex items-center space-x-2">
@@ -82,9 +82,7 @@ function App() {
           </div>
         </div>  
       </div>
-      <div className="sticky bottom-0">
-        <Footer />
-      </div>
+      <Footer />
     </div>
   );
 }
