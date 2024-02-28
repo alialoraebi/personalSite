@@ -21,11 +21,11 @@ function App() {
   const projectsRef = useRef(null);
 
   return (
-    <div className="App flex flex-col min-h-screen bg-black text-white">
-      <div className="w-full mx-auto max-w-4xl p-4 flex flex-col min-h-screen">
+    <div className="App flex flex-col h-screen bg-black text-white overflow-hidden">
+      <div className="w-full mx-auto max-w-4xl p-4 flex flex-col h-full overflow-auto">
         <Header />
         <ColorBar />
-        <div className="flex-1">
+        <div className="flex-1 overflow-auto">
           <div className="section text-left p-4 border-b border-white cursor-pointer" onClick={() => toggleSection('about')}>
             <h2 className="text-xl font-bold inline-flex items-center justify-between w-full">
               <div className="flex items-center space-x-2">
@@ -80,9 +80,11 @@ function App() {
               )}
             </TransitionGroup>
           </div>
-        </div>
+        </div>  
       </div>
-      <Footer />
+      <div className="sticky bottom-0">
+        <Footer />
+      </div>
     </div>
   );
 }
