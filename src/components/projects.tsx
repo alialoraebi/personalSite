@@ -1,29 +1,11 @@
 import React, { useState } from 'react';
 import { TransitionGroup, CSSTransition } from 'react-transition-group';
 import { FaProjectDiagram, FaChevronDown } from 'react-icons/fa';
+import { projects } from '../data/projects.ts';
 
 const Projects = () => {
   const [isOpen, setIsOpen] = useState(false);
-
-  const projects = [
-    {
-        name: 'Employee Management App',
-        description: 'A React web application to manage employee records and schedules.',
-        repoUrl: 'https://github.com/alialoraebi/emp_management_app',
-    },
-    {
-        name: 'Study Timem Tracker App',
-        description: 'A tool for tracking and storing study sessions.',
-        repoUrl: 'https://github.com/alialoraebi/Study_Time_Tracker',
-    },
-    {
-        name: 'Weather App',
-        description: 'A simple weather app to check the current weather in any city.',
-        repoUrl: 'https://github.com/alialoraebi/React-WeatherApp',
-    },
-    // more projects...
-  ];
-
+  
   const handleSectionClick = () => {
     setIsOpen(!isOpen);
   };
@@ -44,7 +26,7 @@ const Projects = () => {
       <TransitionGroup>
         {isOpen && (
           <CSSTransition timeout={200} classNames="my-node">
-            <section id="projects" className="bg-black-100 py-8">
+            <section id="projects" className="bg-black-100">
               <div className="container mx-auto px-6 ">
                 <div className="space-y-6 ">
                     {projects.map((project, index) => (

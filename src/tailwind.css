@@ -23,5 +23,13 @@
     max-height: 0;
   }
 
+  .font-custom::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  .font-custom::-webkit-scrollbar-thumb {
+    background-color: #B7950B;
+  }
+  
 
   

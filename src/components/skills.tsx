@@ -1,26 +1,12 @@
+// Skills.tsx
 import React, { useState } from 'react';
 import { TransitionGroup, CSSTransition } from 'react-transition-group';
 import { FaTools, FaChevronDown } from 'react-icons/fa';
+import Skill from './skill';
+import { skills } from '../data/skills.ts'; 
 
 const Skills = () => {
   const [isOpen, setIsOpen] = useState(false);
-
-  const skills = [
-    'Java',
-    'Spring',
-    'HTML',
-    'CSS',
-    'JavaScript',
-    'C#',
-    'React/React Native',
-    'Node.js',
-    'Docker',
-    'MySQL',
-    'MongoDB',
-    'Git',
-    'GitHub',
-    'Android/IOS Development'
-  ];
 
   const handleSectionClick = () => {
     setIsOpen(!isOpen);
@@ -38,15 +24,11 @@ const Skills = () => {
       <TransitionGroup>
         {isOpen && (
           <CSSTransition timeout={200} classNames="my-node">
-            <section id="skills" className="skills-section">
-              <h2 className="skills-title">Skills</h2>
-              <p className="skills-description">I have been learning these skills for 3 years:</p>
-              <ul className="skills-list">
-                  {skills.map((skill, index) => (
-                      <li key={index} className="skills-item">{skill}</li>
-                  ))}
-              </ul>
-            </section>
+            <div className="mt-9 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2">
+              {skills.map((skill, index) => (
+                <Skill key={index} title={skill.title} icon={skill.icon} link={skill.link} />
+              ))}
+            </div>
           </CSSTransition>
         )}
       </TransitionGroup>
