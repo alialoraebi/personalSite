@@ -51,7 +51,7 @@ const Projects = () => {
                         <div key={index} className="bg-black p-6 hover:shadow-xl transition-shadow duration-300 ease-in-out border-b border-dashed border-gray-500">
                             <h3 className="text-2xl mb-2 font-bold">{project.name}</h3>
                             <p className="mb-4">{project.description}</p>
-                            <a href={project.repoUrl} className="text-blue-600 hover:text-blue-800 transition-colors duration-300 ease-in-out" onClick={handleLinkClick}>
+                            <a href={project.repoUrl} className="text-blue-600 hover:text-blue-800 transition-colors duration-300 ease-in-out" onClick={handleLinkClick} target='_blank' rel='noopener noreferrer'>
                                 <i className="fa fa-github" aria-hidden="true"></i> View on GitHub
                             </a>
                         </div>
