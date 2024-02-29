@@ -46,6 +46,11 @@ export const skills: SkillType[] = [
         link: 'https://developer.apple.com/swift/',
     },
     {
+        title: 'Tailwind',
+        icon: 'https://s2.svgbox.net/files.svg?ic=tailwind',
+        link: 'https://tailwindcss.com/',
+    },
+    {
         title: 'Node JS',
         icon: 'https://s2.svgbox.net/files.svg?ic=node',
         link: 'https://nodejs.org/en/',
@@ -69,11 +74,6 @@ export const skills: SkillType[] = [
         title: 'MongoDB',
         icon: 'https://s2.svgbox.net/files.svg?ic=mongo',
         link: 'https://www.mongodb.com/',
-    },
-    {
-        title: 'Tailwind',
-        icon: 'https://s2.svgbox.net/files.svg?ic=tailwind',
-        link: 'https://tailwindcss.com/',
     },
     {
         title: 'Git',

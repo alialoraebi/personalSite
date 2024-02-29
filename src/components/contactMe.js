@@ -10,7 +10,7 @@ const ContactMe = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Handle form submission logic here
+    alert('Function not added yet!');
   };
 
   const handleSectionClick = () => {
