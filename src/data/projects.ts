@@ -5,7 +5,7 @@ export const projects = [
       repoUrl: 'https://github.com/alialoraebi/emp_management_app',
     },
     {
-      name: 'Study Timem Tracker App',
+      name: 'Study Time Tracker App',
       description: 'A tool for tracking and storing study sessions.',
       repoUrl: 'https://github.com/alialoraebi/Study_Time_Tracker',
     },
