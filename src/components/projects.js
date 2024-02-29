@@ -4,13 +4,13 @@ const Projects = () => {
     const projects = [
         {
             name: 'Employee Management App',
-            description: 'An application to manage employee records and schedules.',
+            description: 'A React web application to manage employee records and schedules.',
             repoUrl: 'https://github.com/alialoraebi/emp_management_app',
         },
         {
-            name: 'Floor Installation Planner',
-            description: 'A tool for planning floor installations effectively.',
-            repoUrl: 'https://github.com/alialoraebi/floor-inst',
+            name: 'Study Timem Tracker App',
+            description: 'A tool for tracking and storing study sessions.',
+            repoUrl: 'https://github.com/alialoraebi/Study_Time_Tracker',
         },
         {
             name: 'Weather App',
