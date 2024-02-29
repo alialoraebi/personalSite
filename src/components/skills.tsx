@@ -24,7 +24,7 @@ const Skills = () => {
       <TransitionGroup>
         {isOpen && (
           <CSSTransition timeout={200} classNames="my-node">
-            <div className="mt-9 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2">
+            <div className="mt-3 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2">
               {skills.map((skill, index) => (
                 <Skill key={index} title={skill.title} icon={skill.icon} link={skill.link} />
               ))}
