@@ -13,7 +13,7 @@ import Footer from './components/footer.js';
 
 function App() {
   return (
-    <div className="App flex flex-col h-screen bg-black text-white overflow-hidden">
+    <div className="App flex flex-col h-screen bg-neutral-900 text-white overflow-hidden">
       <div className="w-full mx-auto max-w-3xl p-4 flex flex-col h-full overflow-auto">
         <Header />
         <ColorBar />
