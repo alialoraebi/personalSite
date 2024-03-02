@@ -41,3 +41,9 @@ If you want to contribute to this project and make it better, your help is very 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+
+## Inspired By:
+
+https://github.com/USKhokhar/astro-vitae 
+
+https://github.com/KayTwenty/my-portfolio

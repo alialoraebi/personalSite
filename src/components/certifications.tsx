@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import { TransitionGroup, CSSTransition } from 'react-transition-group';
-import { FaProjectDiagram, FaChevronDown } from 'react-icons/fa';
-import Project from './project'; 
-import { projects } from '../data/projects.ts';
+import { FaCertificate, FaChevronDown } from 'react-icons/fa';
+import Certificate from './certification'; 
+import { certification } from '../data/certification.ts';
 
-const Projects = () => {
+const Certification = () => {
   const [isOpen, setIsOpen] = useState(false);
   
   const handleSectionClick = () => {
@@ -12,11 +12,11 @@ const Projects = () => {
   };
 
   return (
-    <div className="section text-left p-4 border-b border-white cursor-pointer" data-section="projects" onClick={handleSectionClick}>
+    <div className="section text-left p-4 border-b border-white cursor-pointer" data-section="certification" onClick={handleSectionClick}>
       <h2 className="text-xl font-bold inline-flex items-center justify-between w-full">
         <div className="flex items-center space-x-2">
-          <FaProjectDiagram className="mr-2" />
-          <span>Projects</span>
+          <FaCertificate className="mr-2" />
+          <span>Certifications</span>
         </div>
         <FaChevronDown className={`transition-transform duration-200 ${isOpen ? 'transform rotate-180' : ''}`} />
       </h2>
@@ -26,8 +26,8 @@ const Projects = () => {
             <section id="projects" className="bg-black-100">
               <div className="mb-3 container mx-auto px-3 ">
                 <div className="space-y-0 ">
-                    {projects.map((project, index) => (
-                        <Project key={index} name={project.name} description={project.description} repoUrl={project.repoUrl} />
+                    {certification.map((certification, index) => (
+                        <Certificate key={index} name={certification.name} organization={certification.organization} year={certification.year} credentialLink={certification.credentialLink} />
                     ))}
                 </div>
               </div>
@@ -39,4 +39,4 @@ const Projects = () => {
   );
 };
 
-export default Projects;
+export default Certification;

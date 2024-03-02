@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import { TransitionGroup, CSSTransition } from 'react-transition-group';
-import { FaProjectDiagram, FaChevronDown } from 'react-icons/fa';
-import Project from './project'; 
-import { projects } from '../data/projects.ts';
+import { FaGraduationCap, FaChevronDown } from 'react-icons/fa';
+import EducationItem from './education'; 
+import { education } from '../data/education.ts';
 
-const Projects = () => {
+const Education = () => {
   const [isOpen, setIsOpen] = useState(false);
   
   const handleSectionClick = () => {
@@ -12,22 +12,22 @@ const Projects = () => {
   };
 
   return (
-    <div className="section text-left p-4 border-b border-white cursor-pointer" data-section="projects" onClick={handleSectionClick}>
+    <div className="section text-left p-4 border-b border-white cursor-pointer" data-section="education" onClick={handleSectionClick}>
       <h2 className="text-xl font-bold inline-flex items-center justify-between w-full">
         <div className="flex items-center space-x-2">
-          <FaProjectDiagram className="mr-2" />
-          <span>Projects</span>
+          <FaGraduationCap className="mr-2" />
+          <span>Education</span>
         </div>
         <FaChevronDown className={`transition-transform duration-200 ${isOpen ? 'transform rotate-180' : ''}`} />
       </h2>
       <TransitionGroup>
         {isOpen && (
           <CSSTransition timeout={200} classNames="my-node">
-            <section id="projects" className="bg-black-100">
+            <section id="education" className="bg-black-100">
               <div className="mb-3 container mx-auto px-3 ">
                 <div className="space-y-0 ">
-                    {projects.map((project, index) => (
-                        <Project key={index} name={project.name} description={project.description} repoUrl={project.repoUrl} />
+                    {education.map((educationData, index) => (
+                        <EducationItem key={index} school={educationData.school} degree={educationData.degree} graduationYear={educationData.graduationYear} />
                     ))}
                 </div>
               </div>
@@ -39,4 +39,4 @@ const Projects = () => {
   );
 };
 
-export default Projects;
+export default Education;

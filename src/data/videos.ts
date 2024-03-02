@@ -20,7 +20,7 @@ export const videos: VideoType[] = [
     },
     {
         id: 3,
-        title: 'SKLearn Tutorial',
+        title: 'SKLearn',
         icon: 'https://img.youtube.com/vi/IyTGhzWpTdA/maxresdefault.jpg',
         link: 'https://youtu.be/IyTGhzWpTdA'
     },
