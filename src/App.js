@@ -5,6 +5,7 @@ import Header from './components/Heading.js';
 import AboutSection from './components/about.js';
 import SkillsSection from './components/skills.tsx';
 import ProjectsSection from './components/projects.tsx';
+import VideoSection from './components/videos.tsx';
 import ContactSection from './components/contactMe.js';
 import Footer from './components/footer.js';
 
@@ -18,6 +19,7 @@ function App() {
           <AboutSection />
           <SkillsSection />
           <ProjectsSection />
+          <VideoSection />
           <ContactSection />
         </div>  
       </div>
