@@ -11,7 +11,7 @@ const Certification = ({ name, organization, year, credentialLink }) => {
             <p className="mb-4">{organization}</p>
             <p className="mb-4">{year}</p>
             <a href={credentialLink} className="text-blue-600 hover:text-blue-800 transition-colors duration-300 ease-in-out" target='_blank' rel='noopener noreferrer'>
-                <i className="fa fa-github" aria-hidden="true"></i> View Credential
+                View Credential
             </a>
         </div>
     );

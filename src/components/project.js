@@ -10,7 +10,7 @@ const Project = ({ name, description, repoUrl }) => {
             <h3 className="text-2xl mb-2 font-bold">{name}</h3>
             <p className="mb-4">{description}</p>
             <a href={repoUrl} className="text-blue-600 hover:text-blue-800 transition-colors duration-300 ease-in-out" target='_blank' rel='noopener noreferrer'>
-                <i className="fa fa-github" aria-hidden="true"></i> View on GitHub
+                View on GitHub
             </a>
         </div>
     );
