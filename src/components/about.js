@@ -25,7 +25,7 @@ const About = () => {
       <TransitionGroup>
         {isOpen && (
           <CSSTransition timeout={200} classNames="my-node">
-            <section id="about" className='mt-3'>
+            <section id="about" className='mt-3 mb-3'>
               <h2>
                 Hello, I'm Ali. I'm a full-stack web developer who's proficient in React.js and Node.js. 
                 I'm also exploring many different technologies to help enhance my skills. 

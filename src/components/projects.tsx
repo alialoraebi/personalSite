@@ -27,7 +27,7 @@ const Projects = () => {
         {isOpen && (
           <CSSTransition timeout={200} classNames="my-node">
             <section id="projects" className="bg-black-100">
-              <div className="container mx-auto px-3 ">
+              <div className="mb-3 container mx-auto px-3 ">
                 <div className="space-y-0 ">
                     {projects.map((project, index) => (
                         <div key={index} className="p-6 hover:shadow-xl transition-shadow duration-300 ease-in-out border-b border-dashed border-gray-500">

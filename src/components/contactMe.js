@@ -33,7 +33,7 @@ const ContactMe = () => {
       <TransitionGroup>
         {isOpen && (
           <CSSTransition timeout={200} classNames="my-node">
-            <div className="max-w-md mx-auto" onClick={handleFormInteraction}>
+            <div className="mt-3 mb-3 max-w-md mx-auto" onClick={handleFormInteraction}>
               <form onSubmit={handleSubmit}>
                 <div className="mb-4">
                   <label htmlFor="name" className="block mb-2 font-medium">
