@@ -10,6 +10,7 @@ import ProjectsSection from './components/projects.tsx';
 import VideoSection from './components/videos.tsx';
 import ContactSection from './components/contactMe.js';
 import Footer from './components/footer.js';
+import { Analytics } from "@vercel/analytics/react"
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
         </div>  
       </div>
       <Footer />
+      <Analytics />
     </div>
   );
 }
