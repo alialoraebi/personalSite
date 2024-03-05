@@ -5,7 +5,7 @@ const Header = () => {
     return (
         <header className="font-custom flex justify-between items-center p-6 text-white">
             <div className="flex items-center space-x-4">
-                <img src="https://github.com/alialoraebi.png" alt="GitHub Profile Picture" className="w-16 h-16 rounded-full" />
+                <img src="https://github.com/alialoraebi.png" alt="GitHub Profile" className="w-16 h-16 rounded-full" />
             </div>
             <div className="text-center xs:text-sm">
                 <h1 className="text-2xl xs:text-xl font-bold">Ali Al Oraibi</h1>
