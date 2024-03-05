@@ -36,7 +36,7 @@
     z-index: 0;
     background-size: 300% 300%;
     background-image: linear-gradient(45deg, #1c1c1c, #333, #4a1a1a, #622020, #250505);
-    animation: gradientAnimation 50s ease infinite;
+    animation: gradientAnimation 30s ease infinite;
   }
 
   .bg-animated::before {
@@ -47,7 +47,6 @@
       bottom: 0;
       right: 0;
       background-image: url('https://www.transparenttextures.com/patterns/cartographer.png');
-      opacity: 1;
       pointer-events: none;
       z-index: -1;
       mix-blend-mode: overlay;
