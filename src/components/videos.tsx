@@ -12,7 +12,7 @@ const Videos = () => {
   };
 
   return (
-    <div className="section text-left p-4 border-b border-white cursor-pointer" data-section="videos" onClick={handleSectionClick}>
+    <div className="section text-left p-4 border-b border-slate-300 cursor-pointer" data-section="videos" onClick={handleSectionClick}>
       <h2 className="text-xl font-bold inline-flex items-center justify-between w-full">
         <div className="flex items-center space-x-2">
           <FaVideo className="mr-2" />

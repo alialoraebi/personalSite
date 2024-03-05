@@ -14,7 +14,7 @@ import { Analytics } from "@vercel/analytics/react"
 
 function App() {
   return (
-    <div className="App h-screen flex flex-col bg-animated text-white">
+    <div className="App h-screen flex flex-col bg-animated text-slate-300">
       <div className="w-full mx-auto max-w-3xl p-4 flex flex-col h-screen overflow-hidden">
         <Header />
         <ColorBar />

@@ -35,36 +35,35 @@
     position: relative;
     z-index: 0;
     background-size: 300% 300%;
-    background-image: linear-gradient(45deg, #02005e, #171533, #13003a, #1f015a);
-    animation: gradientAnimation 15s ease infinite;
-  }
-  
-  .bg-animated::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    background-image: url('https://www.transparenttextures.com/patterns/cartographer.png');
-    opacity: 0.6;
-    pointer-events: none;
-    z-index: -1;
-  }
-  
-  @keyframes gradientAnimation {
-    0%, 100% {
-      background-position: 100% 50%;
-    }
-    25% {
-      background-position: 0% 25%;
-    }
-    50% {
-      background-position: 50% 100%;
-    }
-    75% {
-      background-position: 0% 50%;
-    }
+    background-image: linear-gradient(45deg, #1c1c1c, #333, #4a1a1a, #622020, #250505);
+    animation: gradientAnimation 50s ease infinite;
   }
 
-  
+  .bg-animated::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      background-image: url('https://www.transparenttextures.com/patterns/cartographer.png');
+      opacity: 1;
+      pointer-events: none;
+      z-index: -1;
+      mix-blend-mode: overlay;
+  }
+
+  @keyframes gradientAnimation {
+      0%, 100% {
+          background-position: 100% 50%;
+      }
+      25% {
+          background-position: 0% 20%;
+      }
+      50% {
+          background-position: 50% 75%;
+      }
+      75% {
+          background-position: 0% 45%;
+      }
+  }

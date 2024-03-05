@@ -3,7 +3,7 @@ import { FaGithub, FaLinkedin } from 'react-icons/fa';
 
 const Header = () => {
     return (
-        <header className="font-custom flex justify-between items-center p-6 text-white">
+        <header className="font-custom flex justify-between items-center p-6 text-slate-300">
             <div className="flex items-center space-x-4">
                 <img src="https://github.com/alialoraebi.png" alt="GitHub Profile" className="w-16 h-16 rounded-full" />
             </div>
