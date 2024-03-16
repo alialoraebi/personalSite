@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { TransitionGroup, CSSTransition } from 'react-transition-group';
-import { FaRegLightbulb, FaChevronDown } from 'react-icons/fa';
-import Capstone from './capstone'; 
-import { capstones } from '../data/capstone.ts';
+import { FaFile, FaChevronDown } from 'react-icons/fa';
+import Resume from './resume'; 
+import { resumes } from '../data/resume.ts';
 
 const CapstoneSection = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -15,8 +15,8 @@ const CapstoneSection = () => {
     <div className="section text-left p-4 border-b border-slate-300 cursor-pointer" data-section="capstone" onClick={handleSectionClick}>
       <h2 className="text-xl font-bold inline-flex items-center justify-between w-full">
         <div className="flex items-center space-x-2">
-          <FaRegLightbulb className="mr-2" />
-          <span>Capstone Project</span>
+          <FaFile className="mr-2" />
+          <span>Resume/Cover Letter</span>
         </div>
         <FaChevronDown className={`transition-transform duration-200 ${isOpen ? 'transform rotate-180' : ''}`} />
       </h2>
@@ -26,8 +26,8 @@ const CapstoneSection = () => {
             <section id="capstones" className="bg-black-100">
               <div className="mb-3 container mx-auto px-3 ">
                 <div className="space-y-0 ">
-                    {capstones.map((capstone, index) => (
-                        <Capstone key={index} name={capstone.name} pdfLink={capstone.pdfLink} />
+                    {resumes.map((resume, index) => (
+                        <Resume key={index} name={resume.name} pdfLink={resume.pdfLink} />
                     ))}
                 </div>
               </div>
