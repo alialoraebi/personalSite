@@ -29,7 +29,7 @@ const About = () => {
               <h2>
                 Hello, I'm Ali. I'm a full-stack web developer who's proficient in React.js and Node.js. 
                 I'm also exploring many different technologies to help enhance my skills. 
-                Feel free to reach out to me on <a href="https://www.linkedin.com/in/ali-al-oraibi/" className='text-blue-600 hover:text-blue-800 transition-colors duration-300 ease-in-out' onClick={handleLinkClick} target='_blank' rel='noopener noreferrer'>LinkedIn</a>.
+                Feel free to reach out to me on <a href="https://www.linkedin.com/in/ali-al-oraibi/" className='text-blue-500 hover:text-blue-800 transition-colors duration-300 ease-in-out' onClick={handleLinkClick} target='_blank' rel='noopener noreferrer'>LinkedIn</a>.
               </h2>
             </section>
           </CSSTransition>

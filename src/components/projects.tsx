@@ -27,7 +27,7 @@ const Projects = () => {
               <div className="mb-3 container mx-auto px-3 ">
                 <div className="space-y-0 ">
                     {projects.map((project, index) => (
-                        <Project key={index} name={project.name} description={project.description} repoUrl={project.repoUrl} />
+                        <Project key={index} name={project.name} tools={project.tools} description={project.description} repoUrl={project.repoUrl} />
                     ))}
                 </div>
               </div>

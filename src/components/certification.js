@@ -10,7 +10,7 @@ const Certification = ({ name, organization, year, credentialLink }) => {
             <h3 className="text-2xl mb-2 font-bold">{name}</h3>
             <p className="mb-4">{organization}</p>
             <p className="mb-4">{year}</p>
-            <a href={credentialLink} className="text-blue-600 hover:text-blue-800 transition-colors duration-300 ease-in-out" target='_blank' rel='noopener noreferrer'>
+            <a href={credentialLink} className="text-blue-500 hover:text-blue-800 transition-colors duration-300 ease-in-out" target='_blank' rel='noopener noreferrer'>
                 View Credential
             </a>
         </div>
