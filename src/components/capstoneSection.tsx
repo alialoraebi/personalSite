@@ -12,8 +12,8 @@ const CapstoneSection = () => {
   };
 
   return (
-    <div className="section text-left p-4 border-b border-slate-300 cursor-pointer" data-section="capstone" onClick={handleSectionClick}>
-      <h2 className="text-xl font-bold inline-flex items-center justify-between w-full">
+    <div className="section text-left p-4 border-b border-slate-300" data-section="capstone" onClick={handleSectionClick}>
+      <h2 className="text-xl font-bold inline-flex items-center justify-between w-full cursor-pointer">
         <div className="flex items-center space-x-2">
           <FaRegLightbulb className="mr-2" />
           <span>Capstone Project</span>
