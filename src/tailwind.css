@@ -4,65 +4,65 @@
 @import 'tailwindcss/utilities';
 
 .my-node-enter {
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 200ms ease-in;
-  }
-  
-  .my-node-enter-active {
-    max-height: 500px; 
-  }
-  
-  .my-node-exit {
-    max-height: 500px; 
-    overflow: hidden;
-    transition: max-height 200ms ease-in;
-  }
-  
-  .my-node-exit-active {
-    max-height: 0;
-  }
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 400ms linear;
+}
 
-  .font-custom::-webkit-scrollbar {
-    width: 8px;
-  }
-  
-  .font-custom::-webkit-scrollbar-thumb {
-    background-color: #B7950B;
-  }
+.my-node-enter-active {
+  max-height: 500px; 
+}
 
-  .bg-animated {
-    position: relative;
-    z-index: 0;
-    background-size: 300% 300%;
-    background-image: linear-gradient(45deg, #1c1c1c, #333, #4a1a1a, #622020, #250505);
-    animation: gradientAnimation 30s ease infinite;
-  }
+.my-node-exit {
+  max-height: 500px; 
+  overflow: hidden;
+  transition: max-height 400ms linear;
+}
 
-  .bg-animated::before {
-      content: '';
-      position: absolute;
-      top: 0;
-      left: 0;
-      bottom: 0;
-      right: 0;
-      background-image: url('https://www.transparenttextures.com/patterns/cartographer.png');
-      pointer-events: none;
-      z-index: -1;
-      mix-blend-mode: overlay;
-  }
+.my-node-exit-active {
+  max-height: 0;
+}
 
-  @keyframes gradientAnimation {
-      0%, 100% {
-          background-position: 100% 50%;
-      }
-      25% {
-          background-position: 0% 20%;
-      }
-      50% {
-          background-position: 50% 75%;
-      }
-      75% {
-          background-position: 0% 45%;
-      }
-  }
+.font-custom::-webkit-scrollbar {
+  width: 8px;
+}
+
+.font-custom::-webkit-scrollbar-thumb {
+  background-color: #B7950B;
+}
+
+.bg-animated {
+  position: relative;
+  z-index: 0;
+  background-size: 300% 300%;
+  background-image: linear-gradient(45deg, #1c1c1c, #333, #4a1a1a, #622020, #250505);
+  animation: gradientAnimation 30s ease infinite;
+}
+
+.bg-animated::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-image: url('https://www.transparenttextures.com/patterns/cartographer.png');
+    pointer-events: none;
+    z-index: -1;
+    mix-blend-mode: overlay;
+}
+
+@keyframes gradientAnimation {
+    0%, 100% {
+        background-position: 100% 50%;
+    }
+    25% {
+        background-position: 0% 20%;
+    }
+    50% {
+        background-position: 50% 75%;
+    }
+    75% {
+        background-position: 0% 45%;
+    }
+}

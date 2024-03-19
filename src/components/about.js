@@ -24,7 +24,7 @@ const About = () => {
       </h2>
       <TransitionGroup>
         {isOpen && (
-          <CSSTransition timeout={200} classNames="my-node">
+          <CSSTransition timeout={400} classNames="my-node" unmountOnExit>
             <section id="about" className='mt-3 mb-3 m-9' onClick={handleLinkClick}>
             <h2>
               Hey there, I'm Ali, a passionate full-stack web developer with a keen focus on React.js and Node.js. I thrive on the thrill of exploring new technologies, constantly seeking to broaden my skill set and deepen my understanding of the digital landscape.
