@@ -22,12 +22,12 @@ const Education = () => {
       </h2>
       <TransitionGroup>
         {isOpen && (
-          <CSSTransition timeout={200} classNames="my-node">
+          <CSSTransition timeout={400} classNames="my-node" unmountOnExit>
             <section id="education" className="bg-black-100">
               <div className="mb-3 container mx-auto px-3 ">
                 <div className="space-y-0 ">
                     {education.map((educationData, index) => (
-                        <EducationItem key={index} school={educationData.school} degree={educationData.degree} graduationYear={educationData.graduationYear} />
+                        <EducationItem key={index} school={educationData.school} degree={educationData.degree} graduationYear={educationData.graduationYear} awards={educationData.awards} />
                     ))}
                 </div>
               </div>

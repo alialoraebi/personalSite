@@ -22,7 +22,7 @@ const Projects = () => {
       </h2>
       <TransitionGroup>
         {isOpen && (
-          <CSSTransition timeout={200} classNames="my-node">
+          <CSSTransition timeout={400} classNames="my-node" unmountOnExit>
             <section id="projects" className="bg-black-100">
               <div className="mb-3 container mx-auto px-3 ">
                 <div className="space-y-0 ">
