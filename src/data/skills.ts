@@ -16,19 +16,39 @@ export const skills: SkillType[] = [
         link: 'https://www.java.com/en/',
     },
     {
-        title: 'JavaScript',
-        icon: 'https://s2.svgbox.net/files.svg?ic=js',
-        link: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript',
-    },
-    {
         title: 'C#',
         icon: 'https://s2.svgbox.net/files.svg?ic=csharp',
         link: 'https://learn.microsoft.com/en-us/dotnet/csharp/',
     },
     {
+        title: 'HTML',
+        icon: 'https://s2.svgbox.net/files.svg?ic=html',
+        link: 'https://html.spec.whatwg.org/',
+    },
+    {
+        title: 'CSS',
+        icon: 'https://s2.svgbox.net/files.svg?ic=css',
+        link: 'https://www.w3.org/TR/CSS/#css',
+    },
+    {
+        title: 'JavaScript',
+        icon: 'https://s2.svgbox.net/files.svg?ic=js',
+        link: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript',
+    },
+    {
         title: 'Typescript',
         icon: 'https://s2.svgbox.net/files.svg?ic=typescript-official',
         link: 'https://www.typescriptlang.org/',
+    },
+    {
+        title: 'Angular',
+        icon: 'https://s2.svgbox.net/files.svg?ic=angular',
+        link: 'https://angular.io/',
+    },
+    {
+        title: 'GraphQL',
+        icon: 'https://s2.svgbox.net/files.svg?ic=graphql',
+        link: 'https://graphql.org/',
     },
     {
         title: 'Expo',
