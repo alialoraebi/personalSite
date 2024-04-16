@@ -26,8 +26,8 @@ function App() {
           <EducationSection />
           <CertificationSection />
           <ProjectsSection />
-          <ResumeSection />
-          <CapstoneSection />
+          {/* <ResumeSection /> */}
+          {/* <CapstoneSection /> */}
           <VideoSection />
           <ContactSection />
         </div>  
