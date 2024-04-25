@@ -18,6 +18,12 @@ export const projects = [
       repoUrl: 'https://github.com/alialoraebi/React-WeatherApp',
     },
     {
+      name: 'F1 23 Results App',
+      tools: 'React | TailwindCSS | Node.js | Express.js | MongoDB',
+      description: 'A React web application that allows F1 23 players to add their own race results and compare it with real racers.',
+      repoUrl: 'https://github.com/alialoraebi/F1_23_App',
+    },
+    {
       name: 'Digital Divide',
       tools: 'Python',
       description: 'A Python project that focuses on understanding the impact of the digital divide within Canada.',
