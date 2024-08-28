@@ -31,7 +31,7 @@ const About = () => {
             </h2>
             <br />
             <h2>
-              In my journey as a developer, I embrace the philosophy of Bill Hicks: "We are the facilitators of our own creative evolution." This resonates deeply with me as I see my role not just as a coder, but as a catalyst for innovation and progress. I believe in the power of excellent communication, critical thinking, and continuous reflection to drive meaningful change in both my work and the world around me.
+              As a developer, I embrace the philosophy of Bill Hicks: "We are the facilitators of our own creative evolution." This resonates deeply with me as I see my role not just as a coder, but as a catalyst for innovation and progress. I believe in the power of excellent communication, critical thinking, and continuous reflection to drive meaningful change in both my work and the world around me.
             </h2>
             <br />
             <h2>
