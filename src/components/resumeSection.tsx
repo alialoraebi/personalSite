@@ -16,7 +16,7 @@ const CapstoneSection = () => {
       <h2 className="text-xl font-bold inline-flex items-center justify-between w-full cursor-pointer">
         <div className="flex items-center space-x-2">
           <FaFile className="mr-2" />
-          <span>Resume/Cover Letter</span>
+          <span>Resume</span>
         </div>
         <FaChevronDown className={`transition-transform duration-200 ${isOpen ? 'transform rotate-180' : ''}`} />
       </h2>

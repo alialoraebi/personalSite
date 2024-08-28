@@ -8,7 +8,6 @@ import EducationSection from './components/educations.tsx';
 import CertificationSection from './components/certifications.tsx';
 import ProjectsSection from './components/projects.tsx';
 import ResumeSection from './components/resumeSection.tsx';
-import CapstoneSection from './components/capstoneSection.tsx';
 import VideoSection from './components/videos.tsx';
 import ContactSection from './components/contactMe.js';
 import Footer from './components/footer.js';
@@ -26,9 +25,8 @@ function App() {
           <EducationSection />
           <CertificationSection />
           <ProjectsSection />
-          <ResumeSection />
-          <CapstoneSection />
           <VideoSection />
+          <ResumeSection />
           <ContactSection />
         </div>  
       </div>

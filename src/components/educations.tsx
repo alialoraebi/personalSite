@@ -27,7 +27,7 @@ const Education = () => {
               <div className="mb-3 container mx-auto px-3 ">
                 <div className="space-y-0 ">
                     {education.map((educationData, index) => (
-                        <EducationItem key={index} school={educationData.school} degree={educationData.degree} graduationYear={educationData.graduationYear} awards={educationData.awards} />
+                        <EducationItem key={index} school={educationData.school} degree={educationData.degree} Years={educationData.Years} awards={educationData.awards} />
                     ))}
                 </div>
               </div>
