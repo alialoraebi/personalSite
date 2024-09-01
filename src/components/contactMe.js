@@ -24,6 +24,7 @@ const ContactMe = () => {
             <div className="mt-3 mb-3 flex flex-col space-y-2">
               <div className="text-emerald-500 border-b border-dashed border-gray-500 text-right hover:shadow-xl transition-shadow duration-300 ease-in-out">
                 <a
+                  href="mailto:a.aloreabi2000@gmail.com"
                   className="cursor-pointer hover:text-emerald-800 transition-colors duration-300 ease-in-out"
                   onClick={(event) => {
                     event.stopPropagation();
@@ -35,6 +36,7 @@ const ContactMe = () => {
               </div>
               <div className="text-emerald-500 border-b border-dashed border-gray-500 text-right hover:shadow-xl transition-shadow duration-300 ease-in-out">
                 <a
+                  href="https://www.linkedin.com/in/ali-al-oraibi/"
                   className="cursor-pointer hover:text-emerald-800 transition-colors duration-300 ease-in-out"
                   onClick={(event) => {
                     event.stopPropagation();
