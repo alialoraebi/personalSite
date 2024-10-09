@@ -10,7 +10,7 @@ const Header = () => {
             <div className="text-center xs:text-sm">
                 <h1 className="text-2xl xs:text-xl font-bold">Ali Al Oraibi</h1>
                 <h2 className="text-xl xs:text-lg">Software Developer</h2>
-                <p className="xs:text-sm">Oakville, Ontario</p>
+                <p className="xs:text-sm">Doha, Qatar</p>
             </div>
             <div className="flex space-x-4">
                 <a href="https://github.com/alialoraebi" className="text-gray-400 hover:text-white" target='_blank' rel='noopener noreferrer'>
