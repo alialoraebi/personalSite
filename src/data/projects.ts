@@ -12,10 +12,10 @@ export const projects = [
       repoUrl: 'https://github.com/alialoraebi/Study_Time_Tracker',
     },
     {
-      name: 'Weather App',
-      tools: 'React | CSS ',
-      description: 'A simple weather app to check the current weather in any city.',
-      repoUrl: 'https://github.com/alialoraebi/React-WeatherApp',
+      name: 'RGA Website',
+      tools: 'React | TailwindCSS | Nodemailer',
+      description: 'The official website for Robert Guild Associates, showcasing services and capabilities.',
+      repoUrl: 'https://github.com/alialoraebi/RGA_Website',
     },
     {
       name: 'F1 23 Results App',
