@@ -15,7 +15,7 @@ export const projects = [
       name: 'RGA Website',
       tools: 'React | TailwindCSS | Nodemailer',
       description: 'The official website for Robert Guild Associates, showcasing services and capabilities.',
-      repoUrl: 'https://github.com/alialoraebi/RGA_Website',
+      repoUrl: 'https://github.com/alialoraebi/rga-website',
     },
     {
       name: 'F1 23 Results App',
