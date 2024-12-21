@@ -13,7 +13,7 @@ export const education = [
     },
     {
         school: 'White Oaks Secondary School',
-        degree: 'Ontartio Secondary School Diploma',
+        degree: 'Ontario Secondary School Diploma',
         Years: '2017 - 2019',
         awards: 'Honours Award (Winter 2019)'
     },
