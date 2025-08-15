@@ -1,9 +1,10 @@
 import React from 'react';
 
 const Footer = () => {
+    const currentYear = new Date().getFullYear();
     return (
       <footer className=" font-custom p-4 text-left">
-        © 2024 Ali Al Oraibi
+        © {currentYear} Ali Al Oraibi
       </footer>
     );
 };

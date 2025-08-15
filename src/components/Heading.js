@@ -2,10 +2,8 @@ import React from 'react';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 
 const Header = () => {
-    return (
-        <header className="font-custom flex justify-between items-center p-6 text-slate-300">
-            <div className="flex items-center space-x-4">
-                <img src="https://github.com/alialoraebi.png" alt="GitHub Profile" className="w-16 h-16 rounded-full" />
+    return (        <header className="font-custom flex justify-between items-center p-6 text-slate-300">
+            <div className="flex items-center space-x-4 w-16">
             </div>
             <div className="text-center xs:text-sm">
                 <h1 className="text-2xl xs:text-xl font-bold">Ali Al Oraibi</h1>
