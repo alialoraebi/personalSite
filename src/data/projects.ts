@@ -6,16 +6,14 @@ export const projects = [
     repoUrl: 'https://github.com/alialoraebi/rga-website',
   },  
   {
-    name: 'Employee Management App',
-    tools: 'React | CSS | Docker | MongoDB',
-    description: 'A React web application to manage employee records and schedules.',
-    repoUrl: 'https://github.com/alialoraebi/emp_management_app',
-  },
+    name: 'RGA Document Management System',
+    tools: 'React | Node.js | TailwindCSS | AWS | MongoDB',
+    description: 'A comprehensive web application for document management and inventory tracking, enabling secure document storage and inventory control.',
+  },    
   {
-    name: 'Study Time Tracker App',
-    tools: 'JavaFX | Gradle | Bootstrap CSS',
-    description: 'A tool for tracking and storing study sessions.',
-    repoUrl: 'https://github.com/alialoraebi/Study_Time_Tracker',
+    name: 'RGA Maintenance & Reporting Platform',
+    tools: 'React | Node.js | TailwindCSS | AWS | MongoDB',
+    description: 'A tool for tracking and storing maintenance requests and reports.',
   },
   {
     name: 'F1 23 Results App',
@@ -28,11 +26,5 @@ export const projects = [
     tools: 'Python',
     description: 'A Python project that focuses on understanding the impact of the digital divide within Canada.',
     repoUrl: 'https://github.com/alialoraebi/digital-divide',
-  },
-  {
-    name: 'Library System',
-    tools: 'Python',
-    description: 'Library program written in Python that allows the user to display, search and rent books',
-    repoUrl: 'https://github.com/alialoraebi/Library_Program',
   },
 ];
